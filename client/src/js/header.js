@@ -1,3 +1,4 @@
+// Define the header content for the text editor
 const header = `
 /*
        _____  ____________
@@ -8,5 +9,7 @@ const header = `
 just another text editor
 */                          
 `;
+
+// Export the header content to be used in other modules
 
 export { header };
