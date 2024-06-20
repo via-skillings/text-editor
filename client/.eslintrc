@@ -1,9 +1,10 @@
 {
+    // Environment settings for browser-specific globals like window and document
   "env": {
     "browser": true
   },
+    // Rules configuration for ESLint
   "rules": {
-    // Override our default settings just for this directory
     "eqeqeq": "warn",
     "strict": "off",
     "import/no-extraneous-dependencies": "off",
